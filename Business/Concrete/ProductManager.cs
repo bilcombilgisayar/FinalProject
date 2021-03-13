@@ -85,7 +85,7 @@ namespace Business.Concrete
         {
             //İş Kodları
             //Yetkisi var mı? gibi şart(if) simulasyonlarını geçtiyse aşağıdaki kodlar çalışacak
-            if (DateTime.Now.Hour == 22)
+            if (DateTime.Now.Hour == 1)
             {
                 return new ErrorDataResult<List<Product>>(Messages.MaintenanceTime);
             }
